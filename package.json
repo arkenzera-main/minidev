@@ -1,0 +1,23 @@
+{
+  "name": "minidev",
+  "version": "1.0.0",
+  "description": "Mini editor de código",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkenzera-main/minidev.git"
+  },
+  "author": "Bruno Politi Romero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arkenzera-main/minidev/issues"
+  },
+  "homepage": "https://github.com/arkenzera-main/minidev#readme",
+  "devDependencies": {
+    "electron": "^33.0.1"
+  }
+}
+
