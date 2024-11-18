@@ -4,20 +4,32 @@
   "description": "Mini editor de código",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arkenzera-main/minidev.git"
+    "url": "git+https://github.com/professorjosedeassis/minidev.git"
   },
-  "author": "Bruno Politi Romero",
+  "author": "Professor José de Assis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arkenzera-main/minidev/issues"
+    "url": "https://github.com/professorjosedeassis/minidev/issues"
   },
-  "homepage": "https://github.com/arkenzera-main/minidev#readme",
+  "homepage": "https://github.com/professorjosedeassis/minidev#readme",
   "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-deb": "^7.5.0",
+    "@electron-forge/maker-rpm": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "@electron-forge/maker-zip": "^7.5.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron/fuses": "^1.8.0",
     "electron": "^33.0.1"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
   }
 }
-
